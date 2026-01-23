@@ -24,3 +24,19 @@ The purpose of this project is to learn the basic structure of a web page using 
 - Internal navigation links
 ## Notes
 This project was created for learning and practice purposes .
+
+## Week 2 Update – CSS Styling
+
+In Week 2, external CSS was added to enhance the visual appearance of the portfolio website.
+
+### Improvements Made
+- Created an external `style.css` file and linked it to `index.html`
+- Applied a custom color palette for a consistent theme
+- Improved spacing using margin and padding
+- Styled text, lists, and form elements
+- Added hover effects for links and buttons
+- Used Flexbox for layout alignment
+- Ensured basic responsiveness for different screen sizes
+
+This update focuses on separating structure (HTML) and presentation (CSS) while improving user experience and design clarity.
+
