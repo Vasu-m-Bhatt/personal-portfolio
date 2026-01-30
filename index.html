@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Vasu | Personal Portfolio</title>
-  <link rel=stylesheet href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <!-- ===== HEADER ===== -->
+  <!-- header -->
   <header>
     <h1>Vasu</h1>
     <p>Beginner Web Developer</p>
@@ -17,15 +18,25 @@
       <a href="#skills">Skills</a> |
       <a href="#contact">Contact</a>
     </nav>
+
+    <!-- dark mode button -->
+    <br><br>
+    <button onclick="toggleMode()">Toggle Color Mode</button>
+
     <hr>
   </header>
 
-  <!--main content-->
+  <!-- main -->
   <main>
 
-    <!-- about-->
-    <section id="about">
+    <!-- about -->
+    
+
+      <!-- toggle button -->
+      <button onclick="toggleAbout(this)">Hide About Me</button>
+      <section id="about">
       <h2>About Me</h2>
+      <br><br>
 
       <img src="images/pfp.jpg" alt="Profile picture of Vasu" width="200">
 
@@ -56,15 +67,18 @@
     <section id="contact">
       <h2>Contact Me</h2>
 
+      <!-- Form validation -->
       <form>
+        <p id="formError" style="color:red;"></p>
+
         <label for="name">Name:</label><br>
-        <input type="text" id="name" required><br><br>
+        <input type="text" id="name"><br><br>
 
         <label for="email">Email:</label><br>
-        <input type="email" id="email" required><br><br>
+        <input type="email" id="email"><br><br>
 
         <label for="message">Message:</label><br>
-        <textarea id="message" rows="5" required></textarea><br><br>
+        <textarea id="message" rows="5"></textarea><br><br>
 
         <button type="submit">Send Message</button>
       </form>
@@ -77,6 +91,9 @@
     <hr>
     <p>© 2026 Vasu | First HTML Portfolio</p>
   </footer>
+
+  <!-- javascript link -->
+  <script src="script.js"></script>
 
 </body>
 </html>
